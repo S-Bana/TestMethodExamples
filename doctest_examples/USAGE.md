@@ -88,39 +88,6 @@ if __name__ == "__main__":
 
    This means calling `add(4, 5)` should return `9`.
 
-### Adding More Tests
-
-To expand your testing framework:
-
-1. **Create a new file** named `test_math_operations.py` in the same directory.
-2. **Use the following template** to include additional tests using `unittest`:
-
-```python
-import unittest
-from math_operations import add, sub
-
-class TestMathOperations(unittest.TestCase):
-
-    def test_add(self):
-        self.assertEqual(add(4, 5), 9)
-        self.assertEqual(add(-1, 1), 0)
-        self.assertEqual(add(2.5, 2.5), 5.0)
-
-    def test_sub(self):
-        self.assertEqual(sub(6, 4), 2)
-        self.assertEqual(sub(10, 5), 5)
-        self.assertEqual(sub(0, 0), 0)
-
-if __name__ == '__main__':
-    unittest.main()
-```
-
-3. **Run your new test suite** by executing:
-
-   ```bash
-   python test_math_operations.py
-   ```
-
 ## Conclusion
 
-This manual provides a straightforward approach to testing your arithmetic functions in Python using both `doctest` and `unittest`. By following these steps, you can ensure that your code behaves as expected and is robust against changes in future development.
+This manual provides a straightforward approach to testing your arithmetic functions in Python using both `doctest`. By following these steps, you can ensure that your code behaves as expected and is robust against changes in future development.
