@@ -22,5 +22,5 @@
 To get started with this repository, clone it to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/TestMethodExamples.git
+git clone https://github.com/S-Bana/TestMethodExamples.git
 cd TestMethodExamples
