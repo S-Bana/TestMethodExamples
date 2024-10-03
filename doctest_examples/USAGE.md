@@ -1,6 +1,7 @@
-# Usage Manual for `math_operations.py`
 
-This manual provides instructions on how to use the `math_operations.py` script, which contains basic mathematical operations and their corresponding doctests.
+# Testing Guide for `math_operations.py`
+
+This guide provides a comprehensive manual for testing the `math_operations.py` file, which contains basic arithmetic operations using Python's built-in `doctest` module. The file includes two functions: `add` and `sub`, each equipped with embedded tests in their docstrings.
 
 ## Overview
 
@@ -15,15 +16,6 @@ Both functions include doctests that verify their correctness through example in
 
 Ensure you have Python installed on your machine.
 No need to install an external library.
-
-## File Structure
-
-Your directory should look like this:
-
-
-# Testing Guide for `math_operations.py`
-
-This guide provides a comprehensive manual for testing the `math_operations.py` file, which contains basic arithmetic operations using Python's built-in `doctest` module. The file includes two functions: `add` and `sub`, each equipped with embedded tests in their docstrings.
 
 ## File Structure
 
