@@ -16,6 +16,19 @@ def add(x, y):
     return x + y
 
 
+def sub(x, y):
+    '''
+    Subtracts the second number from the first.
+
+    >>> sub(6, 4)
+    2
+    >>> sub(10, 5)
+    5
+    >>> sub(0, 0)
+    0
+    '''
+    return x - y
+
 
 if __name__ == "__main__":
     doctest.testmod()
