@@ -1,6 +1,5 @@
-Certainly! Below is a sample `usage.md` file that provides instructions on how to use the `math_operations` module and run the unit tests.
+Below is a sample `USAGE.md` file that provides instructions on how to use the `math_operations` module and run the unittests.
 
-```markdown
 # Math Operations Module Usage
 
 ## Overview
@@ -133,6 +132,6 @@ To ensure the correctness of the module, unit tests are provided using the `unit
 ## Conclusion
 
 You can now use the functions in the `math_operations` module for basic arithmetic operations and verify their correctness using unit tests.
-```
+
 
 Feel free to customize this file further based on your specific requirements!
