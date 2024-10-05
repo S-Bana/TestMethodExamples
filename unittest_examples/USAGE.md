@@ -1,4 +1,6 @@
-Below is a sample `USAGE.md` file that provides instructions on how to use the `math_operations` module and run the unittests.
+This is an instruction on how to use the math_operations module and run unit tests.
+
+---
 
 # Math Operations Module Usage
 
