@@ -185,5 +185,4 @@ Feel free to customize this file further based on your specific requirements!
   - **setUp()**: Called before every test method.
   - **tearDown()**: Called after every test method.
 
-For more detailed information and additional methods, you can refer to the official [unittest documentation](https://docs.python.org/fr/3.10/library/unittest.html) [1].
 
