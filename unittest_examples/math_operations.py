@@ -28,7 +28,6 @@ def sub(x, y):
     return x - y
 
 
-
 def mul(x, y):
     """
     Multiplies two numbers.
@@ -41,6 +40,7 @@ def mul(x, y):
         int or float: The product of x and y.
     """
     return x * y
+
 
 def div(x, y):
     """
