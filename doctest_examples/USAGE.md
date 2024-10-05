@@ -25,7 +25,7 @@ Ensure your project directory has the following structure:
 project/
 │
 ├── math_operations.py
-└── README.md
+└── USAGE.md
 ```
 
 ## Contents of `math_operations.py`
@@ -70,7 +70,9 @@ if __name__ == "__main__":
 2. **Execute the script** by running:
 
    ```bash
-   python math_operations.py
+   python3 math_operations.py
+   # or
+   python3 -m doctest -v math_operations.py
    ```
 
 3. **Check Output**: If all tests pass, you will see no output. If there are any failures, the output will indicate which tests failed and provide details about the expected versus actual results.
