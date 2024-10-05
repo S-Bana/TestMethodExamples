@@ -147,3 +147,43 @@ You can now use the functions in the `math_operations` module for basic arithmet
 
 
 Feel free to customize this file further based on your specific requirements!
+
+## Here’s a comprehensive list of methods available in the `unittest` module, specifically focusing on the assertion methods provided by the `TestCase` class:
+
+| Method                           | Description                                      |
+|----------------------------------|--------------------------------------------------|
+| `assertEqual(a, b)`             | Checks if `a` is equal to `b`.                  |
+| `assertNotEqual(a, b)`          | Checks if `a` is not equal to `b`.              |
+| `assertTrue(x)`                 | Checks if `x` is `True`.                        |
+| `assertFalse(x)`                | Checks if `x` is `False`.                       |
+| `assertIs(a, b)`                | Checks if `a` is `b`.                           |
+| `assertIsNot(a, b)`             | Checks if `a` is not `b`.                       |
+| `assertIsNone(x)`               | Checks if `x` is `None`.                        |
+| `assertIsNotNone(x)`            | Checks if `x` is not `None`.                    |
+| `assertIn(a, b)`                | Checks if `a` is in container `b`.              |
+| `assertNotIn(a, b)`             | Checks if `a` is not in container `b`.          |
+| `assertIsInstance(a, b)`        | Checks if `a` is an instance of class/type `b`. |
+| `assertNotIsInstance(a, b)`     | Checks if `a` is not an instance of class/type `b`.|
+| `assertRaises(exc, func, *args, **kwargs)` | Checks that an exception is raised.  |
+| `assertAlmostEqual(a, b, places=7)` | Checks that two values are almost equal.  |
+| `assertNotAlmostEqual(a, b, places=7)` | Checks that two values are not almost equal.|
+| `assertGreater(a, b)`           | Checks that `a` is greater than `b`.            |
+| `assertGreaterEqual(a, b)`      | Checks that `a` is greater than or equal to `b`.|
+| `assertLess(a, b)`              | Checks that `a` is less than `b`.               |
+| `assertLessEqual(a, b)`         | Checks that `a` is less than or equal to `b`.   |
+| `assertRegex(text, regex)`      | Checks that the regex matches the text.         |
+| `assertNotRegex(text, regex)`   | Checks that the regex does not match the text.  |
+| `assertCountEqual(a, b)`        | Checks that two sequences have the same elements in any order.|
+| `assertDictEqual(d1, d2)`       | Checks that two dictionaries are equal.          |
+| `assertListEqual(l1, l2)`       | Checks that two lists are equal.                 |
+| `assertTupleEqual(t1, t2)`      | Checks that two tuples are equal.                |
+| `assertSetEqual(s1, s2)`        | Checks that two sets are equal.                  |
+
+### Additional Notes:
+- The methods prefixed with "assert" are used to verify expected outcomes in your tests.
+- You can also use setup and teardown methods like:
+  - **setUp()**: Called before every test method.
+  - **tearDown()**: Called after every test method.
+
+For more detailed information and additional methods, you can refer to the official [unittest documentation](https://docs.python.org/fr/3.10/library/unittest.html) [1].
+
