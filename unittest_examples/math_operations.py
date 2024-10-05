@@ -56,4 +56,6 @@ def div(x, y):
     Raises:
         ZeroDivisionError: If y is zero.
     """
+    if y == 0:
+        raise ZeroDivisionError("Can't divide by Zero !!!")
     return x / y
