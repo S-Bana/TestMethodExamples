@@ -88,12 +88,9 @@ result = div(20, 4)  # result will be 5.0
 To ensure the correctness of the module, unit tests are provided using the `unittest` framework. Follow these steps to run the tests:
 
 1. **Install Python (if not already installed)**:
-   Ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+   Ensure you have Python installed on your system.
 
-2. **Create a test file**:
-   Create a new file named `test_math_operations.py` in the same directory as your `math_operations.py`.
-
-3. **Add the following code to your test file**:
+2. **test file**:
    ```python
    import unittest
    from math_operations import add, sub, mul, div
@@ -121,15 +118,28 @@ To ensure the correctness of the module, unit tests are provided using the `unit
        unittest.main()
    ```
 
-4. **Run the tests**:
+3. **Run the tests**:
    Open your terminal or command prompt and navigate to the directory containing your files. Run the following command:
 
    ```bash
-   python -m unittest test_math_operations.py
+   python3 -m unittest test_math_operations.py
+   # or
+   python3 -m unittest -v test_math_operations.py
    ```
 
-5. **Check the output**:
+4. **Check the output**:
    If all tests pass, you will see an output indicating success. If any tests fail, you will receive details about which tests did not pass.
+   
+   ====================================================================================
+    test_add (unittest_examples.test_math_operations.TestMathOperations) ... ok
+    test_div (unittest_examples.test_math_operations.TestMathOperations) ... ok
+    test_mul (unittest_examples.test_math_operations.TestMathOperations) ... ok
+    test_sub (unittest_examples.test_math_operations.TestMathOperations) ... ok
+
+    ----------------------------------------------------------------------
+    Ran 4 tests in 0.000s
+
+    OK
 
 ## Conclusion
 
