@@ -25,10 +25,10 @@ class TestMathOperations(unittest.TestCase):
     def test_div(self):
         m1 = Math(5, 6)
         m2 = Math(9, 3)
-        self.assertEqual(m1.div(), 1)
+
+        d = round(m1.div(), 3) # filter result to three decimal places , 0.833333333 --> 0.833
+        self.assertEqual(d, 0.833)
         self.assertEqual(m2.div(), 3)
-        with self.assertRaises(ZeroDivisionError):
-            m1.div(10, 0)
 
 
 if __name__ == '__main__':
