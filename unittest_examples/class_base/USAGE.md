@@ -1,4 +1,4 @@
-```markdown
+
 Here’s a `usage.md` file that provides clear instructions and information about how to use the `Math` class and its associated unit tests.
 
 # Usage Guide for Math Operations
@@ -18,7 +18,7 @@ from math_operations_class import Math
 
 # Example
 math_instance = Math(5, 6)
-```
+
 
 ### Methods
 
