@@ -98,6 +98,7 @@ The following operations are tested:
 ## Conclusion
 
 This guide provides a comprehensive overview of how to use the `Math` class and run its associated unit tests. For any further questions or issues, please refer to the documentation or reach out for support.
-```
 
-Feel free to modify any sections according to your specific needs or additional features!
+- Feel free to modify any sections according to your specific needs or additional features!
+
+
