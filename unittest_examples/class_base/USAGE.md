@@ -1,6 +1,6 @@
+```markdown
 Here’s a `usage.md` file that provides clear instructions and information about how to use the `Math` class and its associated unit tests.
 
-```markdown
 # Usage Guide for Math Operations
 
 ## Overview
