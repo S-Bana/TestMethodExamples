@@ -79,10 +79,12 @@ Make sure you have Python installed on your machine. You can run the tests using
 To run the tests, execute the following command in your terminal:
 
 ```bash
-python -m unittest test_math_operations.py
+python3 -m unittest test_math_operations_class.py
+# or
+python3 -m unittest test_math_operations_class_setUp_tearDown.py
 ```
 
-Replace `test_math_operations.py` with the name of your test file if it's different.
+Replace `test_math_operations_class.py` with the name of your test file if it's different.
 
 ### Test Cases Included
 
